@@ -1,5 +1,5 @@
 [package]
-name = "rusty-machine"
+name = "rusty-machine-sgx"
 version = "0.5.4"
 authors = ["AtheMathmo"]
 
@@ -10,6 +10,9 @@ keywords = ["machine","learning","stats","data","machine-learning"]
 categories = ["science"]
 readme = "README.md"
 license = "MIT"
+
+[lib]
+name = "rusty_machine"
 
 [features]
 stats = []
