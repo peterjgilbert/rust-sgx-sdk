@@ -1,5 +1,5 @@
 [package]
-name = "sgx_tunittest"
+name = "xargo_sgx_tunittest"
 version = "0.9.7"
 authors = ["Baidu"]
 
