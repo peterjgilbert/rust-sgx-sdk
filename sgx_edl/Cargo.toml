@@ -1,0 +1,4 @@
+[package]
+name = "sgx_edl"
+version = "0.9.7"
+
