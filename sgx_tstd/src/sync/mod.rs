@@ -52,6 +52,9 @@ pub use self::mutex::SgxMutexGuard as MutexGuard;
 pub use self::remutex::{SgxReentrantMutex, SgxReentrantMutexGuard, SgxReentrantThreadMutex};
 pub use self::once::{Once, OnceState, ONCE_INIT};
 pub use self::rwlock::{SgxRwLock, SgxRwLockReadGuard, SgxRwLockWriteGuard, SgxThreadRwLock};
+pub use self::rwlock::SgxRwLock as RwLock;
+pub use self::rwlock::SgxRwLockReadGuard as RwLockReadGuard;
+pub use self::rwlock::SgxRwLockWriteGuard as RwLockWriteGuard;
 pub use self::spinlock::{SgxSpinlock, SgxSpinlockGuard, SgxThreadSpinlock};
 pub use sys_common::poison::{PoisonError, TryLockError, TryLockResult, LockResult};
 
